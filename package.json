@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm install && tsc && vite build",
+    "build": "tsc && vite build",
     "format": "prettier --write ./lib/**/* --config .prettierrc",
     "lint": "eslint ./lib/**/*.ts --config .eslintrc",
     "lint:fix": "eslint --fix ./lib/**/*.ts --config .eslintrc"
